@@ -10,13 +10,13 @@
    Supporting Files: 
 
 */
-
+/**/
 body {
   box-shadow:
     10px 0px 15px rgb(211, 211, 211, 0.5),
     -10px 0px 15px rgb(211, 211, 211, 0.5);
 }
-
+/**/
 header nav ul li {
   background-color: rgb(224, 238, 238);
   border-radius: 10px;
@@ -24,3 +24,26 @@ header nav ul li {
     inset 3px 3px 2px white,
     inset 5px 5px 5px rgb(147, 207, 207);
 }
+/* styling for article section*/
+article {
+  box-shadow:
+    inset 15px 15px 75px rgb(171, 171, 171),
+    5px 5px 5px rgb(101, 101, 101);
+}
+/**/
+blockquote {
+  background: linear-gradient(to right, rgb(166, 230, 230) 5%, rgb(231, 231, 231) 15%, rgb(255, 255, 255) 100%);
+  background: -webkit-gradient(linear, color-stop(0%, rgb(166, 230, 230)), color-stop(33%, rgb(231, 231, 231)), color-stop(100%, rgb(255, 255, 255)));
+  filter: progid:DXImageTransform.Microsoft.gradient(
+   GradientType=1,
+   startColorstr='#def4f4',
+   endColorstr='#ffffff'
+ );
+}
+/**/
+
+/**/
+
+/**/
+
+/**/
