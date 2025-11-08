@@ -30,9 +30,8 @@
   .no-print {
     display: none;
   }
-  article h2:last-of-type {
+  body > section:last-of-type h2:last-of-type {
     break-before: always;
-    page-break-before: always;
   }
 }
 
